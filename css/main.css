@@ -1,0 +1,114 @@
+html {
+  background-color:#dbd6cf;
+}
+
+h1 {
+  font-size:3rem;
+  font-family:'Ubuntu', sans-serif;
+  line-height:1.5;
+  }
+
+h2 {
+  font-size:2rem;
+  font-family:'Ubuntu', sans-serif;
+  line-height:1.5;
+}
+
+ol{
+  list-style-type: lower-roman;
+  font-size:1.5rem;
+}
+
+ul{
+  list-style-type:none;
+  font-size:1.5rem;
+}
+
+p{
+  font-weight:normal;
+  font-size:1.5rem;
+  font-style:normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color:blue;
+}
+
+a:hover{color:orange;
+}
+
+figcaption {
+  font-style:italic;
+  font-size:.8rem;
+}
+ol{
+  font-size:1.5rem;
+  font-weight:normal;
+  font-family:'Ubuntu',sans-serif
+}
+
+blockquote div{
+  text-align:right;
+  font-size:1rem;
+  color:gray;
+}
+
+blockquote{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Times, serif;
+  line-height: 1.5;
+}
+
+blockquote{
+  font-style:italic;
+  font-size:2rem;
+}
+body {
+  margin:0;
+}
+
+h1 {
+  background-color: #dbd6cf;
+  padding: 1em 1em 0.5em 1em;
+  margin: 0;
+  border-radius:10px;
+  text-align:center;
+}
+
+a{
+  background-color: #79756f;
+  display:block;
+}
+
+nav {
+  background-color: #703838;
+  text-align:center;
+}
+
+nav ul {
+  list-style-type:none;
+  margin:0.5em;
+  padding:0.5em;
+  border:0.25;
+  display:inline-block;
+}
+
+nav li {
+  display:inline-block;
+  margin:.5em;
+  padding:0.25em;
+}
+
+nav a {
+  display:inline-block;
+  padding: 0.5em 0.75em;
+  background-color:megenta;
+  color: #fff;
+  text-decoration:none;
+  border-radius:4px;
+  width:5.5em;
+}
