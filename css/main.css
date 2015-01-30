@@ -3,15 +3,24 @@ html {
 }
 
 h1 {
-  font-size:3rem;
+  font-size:4rem;
   font-family:'Ubuntu', sans-serif;
   line-height:1.5;
+  margin:.5em;
   }
 
 h2 {
   font-size:2rem;
   font-family:'Ubuntu', sans-serif;
   line-height:1.5;
+}
+
+main {
+  padding: 0em 1em;
+}
+
+figcaption {
+  text-align:center;
 }
 
 ol{
@@ -45,8 +54,9 @@ figcaption {
 ol{
   font-size:1.5rem;
   font-weight:normal;
-  font-family:'Ubuntu',sans-serif
-}
+  font-family:'Ubuntu',sans-serif;
+  margin: 3rem;
+  }
 
 blockquote div{
   text-align:right;
@@ -93,7 +103,7 @@ nav ul {
   list-style-type:none;
   margin:0.5em;
   padding:0.5em;
-  border:0.25;
+  border:0.25em;
   display:inline-block;
 }
 
@@ -106,9 +116,23 @@ nav li {
 nav a {
   display:inline-block;
   padding: 0.5em 0.75em;
-  background-color:megenta;
   color: #fff;
   text-decoration:none;
   border-radius:4px;
   width:5.5em;
+}
+
+figure{
+  border:3px solid #000;
+  border-radius:20px;
+  padding:3em;
+}
+
+img {
+  width:100%
+}
+
+footer {
+  background-color: #79756f;
+  padding: 2em 2em 2em
 }
